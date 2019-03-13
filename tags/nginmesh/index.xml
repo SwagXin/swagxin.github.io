@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>nginmesh on SwagXin Blog</title>
+    <title>nginmesh on SwagXin</title>
     <link>https://www.swag.xin/tags/nginmesh/</link>
-    <description>Recent content in nginmesh on SwagXin Blog</description>
+    <description>Recent content in nginmesh on SwagXin</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>zh</language>
     <lastBuildDate>Tue, 02 Jan 2018 12:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://www.swag.xin/tags/nginmesh/index.xml" rel="self" type="application/rss+xml" />
