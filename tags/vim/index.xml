@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vim on SwagXin</title>
+    <title>Vim on Swag.Xin</title>
     <link>https://www.swag.xin/tags/vim/</link>
-    <description>Recent content in Vim on SwagXin</description>
+    <description>Recent content in Vim on Swag.Xin</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
     <lastBuildDate>Fri, 09 Feb 2018 11:00:00 +0000</lastBuildDate>
