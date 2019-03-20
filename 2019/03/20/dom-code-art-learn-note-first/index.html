@@ -18,15 +18,15 @@
     
 
     
-    <meta name="title" content="Clean White Theme for Hugo" />
-    <meta property="og:title" content="Clean White Theme for Hugo" />
-    <meta property="twitter:title" content="Clean White Theme for Hugo" />
+    <meta name="title" content="DOM编程艺术学习笔记第一章" />
+    <meta property="og:title" content="DOM编程艺术学习笔记第一章" />
+    <meta property="twitter:title" content="DOM编程艺术学习笔记第一章" />
     
 
     
-    <meta name="description" content="SwagXin，程序员, 开源爱好者，生活探险家 | 这里是 SwagXin 的博客，与你一起发现更大的世界。">
-    <meta property="og:description" content="SwagXin，程序员, 开源爱好者，生活探险家 | 这里是 SwagXin 的博客，与你一起发现更大的世界。" />
-    <meta property="twitter:description" content="SwagXin，程序员, 开源爱好者，生活探险家 | 这里是 SwagXin 的博客，与你一起发现更大的世界。" />
+    <meta name="description" content="这一章主要描述了JS的起源，浏览器厂商的发展史。以及DOM技术的发展与演变">
+    <meta property="og:description" content="这一章主要描述了JS的起源，浏览器厂商的发展史。以及DOM技术的发展与演变" />
+    <meta property="twitter:description" content="这一章主要描述了JS的起源，浏览器厂商的发展史。以及DOM技术的发展与演变" />
     
 
     
@@ -37,9 +37,9 @@
     <meta name="keyword"  content="SwagXin, SwagXin, SwagXin, , SwagXin的网络日志, SwagXin的博客, SwagXin Blog, 博客, 个人网站, 互联网, Web, 云原生, PaaS, Istio, Kubernetes, 微服务, Microservice">
     <link rel="shortcut icon" href="/img/favicon.ico">
 
-    <title>Clean White Theme for Hugo-Swag.Xin的博客</title>
+    <title>DOM编程艺术学习笔记第一章-Swag.Xin的博客</title>
 
-    <link rel="canonical" href="/post/readme/">
+    <link rel="canonical" href="/2019/03/20/DOM-code-art-learn-note-first/">
 
     <link rel="stylesheet" href="/css/iDisqus.min.css"/>
 	
@@ -161,7 +161,7 @@
 
 <style type="text/css">
     header.intro-header {
-        background-image: url('https://img.zhaohuabing.com/post-bg-2015.jpg')
+        background-image: url('https://img.zhaohuabing.com/in-post/2018-06-04-introducing-the-istio-v1alpha3-routing-api/background.jpg')
     }
 </style>
 <header class="intro-header">
@@ -171,16 +171,20 @@
                 <div class="post-heading">
                     <div class="tags">
                         
+                        <a class="tag" href="/tags/istio" title="Istio">
+                            Istio
+                        </a>
+                        
                     </div>
-                    <h1>Clean White Theme for Hugo</h1>
-                    <h2 class="subheading">How to set up this theme</h2>
+                    <h1>DOM编程艺术学习笔记第一章</h1>
+                    <h2 class="subheading"></h2>
                     <span class="meta">
 			Posted by 
 			
-			    赵化冰
+			        &#34;SwagXin&#34;
 			 
 			on 
-			Wednesday, January 9, 2019
+			Wednesday, March 20, 2019
                         
                     </span>
                 </div>
@@ -208,191 +212,109 @@
                 </header>
                 <nav id="TableOfContents">
 <ul>
-<li><a href="#clean-white-theme-for-hugo">Clean White Theme for Hugo</a>
+<li>
 <ul>
-<li><a href="#screenshots">Screenshots</a></li>
-<li><a href="#quick-start">Quick Start</a></li>
-<li><a href="#configuration">Configuration</a>
+<li>
 <ul>
-<li><a href="#comments">Comments</a></li>
-<li><a href="#disqus-in-china">Disqus in China</a></li>
-<li><a href="#site-search-with-algolia">Site Search with Algolia</a></li>
-<li><a href="#analytics">Analytics</a></li>
-<li><a href="#wechat-pay-alipay-rewards">Wechat Pay &amp; Alipay Rewards</a></li>
+<li><a href="#1-1javascript的起源">1.1JavaScript的起源</a></li>
+<li><a href="#1-3-浏览器战争">1.3 浏览器战争</a>
+<ul>
+<li><a href="#1-3-1-dhtml">1.3.1 DHTML</a></li>
+<li><a href="#1-3-2-浏览器之间的冲突">1.3.2 浏览器之间的冲突</a></li>
 </ul></li>
-<li><a href="#thank">Thank</a></li>
-<li><a href="#feedback">Feedback</a></li>
+<li><a href="#1-4-制定标准">1.4 制定标准</a>
+<ul>
+<li><a href="#1-4-1-浏览器以外的考虑">1.4.1 浏览器以外的考虑</a></li>
+<li><a href="#1-4-2-浏览器战争的结局">1.4.2 浏览器战争的结局</a></li>
+<li><a href="#1-4-3-崭新的起点">1.4.3 崭新的起点</a></li>
+</ul></li>
+</ul></li>
 </ul></li>
 </ul>
 </nav>
                 
                 
 
-<h1 id="clean-white-theme-for-hugo">Clean White Theme for Hugo</h1>
+<h3 id="1-1javascript的起源">1.1JavaScript的起源</h3>
 
-<p>CleanWhite is a clean, elegant, but fully functional blog theme for Hugo. Here is a live <a href="https://zhaohuabing.com">demo site</a> using this theme.</p>
+<p>JavaScript由Netscape与Sun公司共同开发。Js出现之前，浏览器只能显示超文本文档。而Js的出现让浏览器的交互得到大幅度的改善。Js1.0于1995年出现在Netscape Navigator 2浏览器中。</p>
 
-<p>It is based on <a href="https://github.com/Huxpro/huxpro.github.io">huxblog Jekyll Theme</a>
-and <a href="https://github.com/BlackrockDigital/startbootstrap-clean-blog-jekyll">Clean Blog Jekyll Theme</a>.</p>
+<p>当时Netscape Navigator是浏览器市场的主宰。微软IE为了开拓自己的市场推出了VBScript语言，并且以JScript为名发布了JS的一个版本，很快的追上了Netscape Navigator。Netscape和Sun采取对应措施，联合ECMA（欧洲计算机制造商协会）对JS进行标准化，于是出现ECMAScript语言，也就是我们现在所说的ES6,ES7等。到了1995年，两家的浏览器不同程度的支持JS1.1语言。</p>
 
-<p>These two upstream projects have done awesome jobs to create a blog theme, what I&rsquo;m doing here is porting it to Hugo, of which I like the simplicity and the much faster compiling speed. Some other features which I think could be useful, such as site search with algolia and proxy for Disqus access in China, have also been built in the CleanWhite theme. Other fancy features of upstream projects are not supported by this Hugo theme, I&rsquo;d like to make it as simple as possible and only focus on blog purpose, at least for now.
-While I created this theme, I followed the Hugo theme best practice and tried to make every part of the template as a replaceable partial html, so it could be much easier for you to make your customization based on it.</p>
+<p>JS是脚本语言，通过浏览器执行而非独立运行。这种限制让JS不可能像C或者JAVA那样的编程语言有广泛用途。但相比其他编程语言，JS相对来说易于学习。</p>
 
-<h2 id="screenshots">Screenshots</h2>
+<p>JS提供一系列操控浏览器的手段，如调整浏览器宽度高度位置等属性，这种设置属性的方法可以看作BOM（浏览器模型对象），JS初期版本提供了一种初级DOM。</p>
 
-<p><strong>Home</strong>
-<img src="/img/fullscreenshot.png" alt="screenshot" /></p>
+<p>###1.2 DOM
+DOM是一套对文档内容进行抽象和概念化的方法。</p>
 
-<p><strong>Post</strong>
-<img src="/img/post.png" alt="screenshot" /></p>
+<p>在现实世界中，一位老师让你帮忙去隔壁教室拿一根粉笔。你和老师都知道知道隔壁，粉笔这些词汇的含义，所以你可以找到老师所需要的东西，
+网页也是这样，在JS早期版本定义了images,forms等属于，才能像下面这般找到所需对象，引用它</p>
 
-<p><strong>Search</strong>
-<img src="/img/sitesearch.png" alt="screenshot" /></p>
-
-<p><strong>Disqus</strong>
-<img src="/img/disqus.png" alt="screenshot" /></p>
-
-<p><strong>Wechat Pay &amp; Alipay</strong>
-<img src="/img/rewards.png" alt="screenshot" /></p>
-
-<h2 id="quick-start">Quick Start</h2>
-
-<p>Go to the directory where you have your Hugo site and run:</p>
-
-<pre><code>$ mkdir themes
-$ cd themes
-$ git clone https://github.com/zhaohuabing/hugo-theme-cleanwhite.git
+<pre><code>document.images[2]    //引用文档中第三张图片
+document.forms['details']   //引用文档中名为details的表单
 </code></pre>
 
-<p>If your site is already a git project, you may want to choose to add the cleanwhite theme as a submodule to avoid messing up your existing git repository.</p>
+<p>这种实验性质的DOM为0级DOM，在未形成标准的初期，这种DOM通常用来翻转图片和验证表单数据。在Netscape和微软各自推出第四代浏览器，DOM开始陷入困境。</p>
 
-<pre><code>$ mkdir themes
-$ git submodule add https://github.com/zhaohuabing/hugo-theme-cleanwhite.git themes/hugo-theme-cleanwhite
+<h3 id="1-3-浏览器战争">1.3 浏览器战争</h3>
+
+<p>两家公司与1997年发布第四代浏览器，大幅扩展DOM，通过Js完成的功能大大增加，一个新的词汇出现了：DHTML</p>
+
+<h4 id="1-3-1-dhtml">1.3.1 DHTML</h4>
+
+<p>DHTML是“Dynamic HTML”的简称，它不是新技术，不过是HTML，CSS，JS技术组合的术语。它的含义是：
+* 利用HTML把网页标记为各种元素
+* 利用CSS设置元素样式和位置
+* 利用Js实时操作页面</p>
+
+<p>利用DHTML，复杂的效果变得容易是按，例如，先用HTML标记一个页面元素：</p>
+
+<pre><code>&lt;div id=&quot;myelement&quot;&gt;This is my element&lt;/div&gt;
 </code></pre>
 
-<p>Run  Hugo Build-in Server Locally</p>
+<p>利用CSS定义位置样式：</p>
 
-<pre><code>$ hugo serve -t  hugo-theme-cleanwhite
+<pre><code>#myelement{
+  position:absoulte;
+  left:50px;
+  top:100px;
+}
 </code></pre>
 
-<p>Now enter <a href="http://localhost:1313"><code>localhost:1313</code></a> in the address bar of your browser.</p>
+<p>接下来利用JS改变myelement元素的 left和top样式，可以让他们在页面上随意移动，不过这只是理论。
+不幸的是，两家浏览器使用不兼容DOM。虽然目标一样，实行的办法却不同。</p>
 
-<p>If you start from scratch, there is a working Hugo site configured with the CleanWhite theme in the <a href="https://github.com/zhaohuabing/hugo-theme-cleanwhite/tree/master/exampleSite">exampleSite</a> directory.  You can use it as a starting point for your site.</p>
+<h4 id="1-3-2-浏览器之间的冲突">1.3.2 浏览器之间的冲突</h4>
 
-<p>For more information read the official <a href="https://gohugo.io/overview/installing/">setup guide</a> of Hugo</p>
+<p>Netscape 公司的DOM使用专有元素，这些元素成为层（layer）,层有位移ID，JS代码需要这样引用它：</p>
 
-<h2 id="configuration">Configuration</h2>
-
-<p>First, let&rsquo;s take a look at the <a href="https://github.com/zhaohuabing/hugo-cleanwhite-theme/tree/master/exampleSite/config.toml">config.toml</a>. It will be useful to learn how to customize your site. Feel free to play around with the settings.</p>
-
-<h3 id="comments">Comments</h3>
-
-<p>The optional comments system is powered by <a href="https://disqus.com">Disqus</a>. If you want to enable comments, create an account in Disqus and write down your shortname.</p>
-
-<pre><code class="language-toml">disqusShortname = &quot;your-disqus-short-name&quot;
+<pre><code>document.layers['myelement']
 </code></pre>
 
-<p>You can disable the comments system by leaving the <code>disqusShortname</code> empty.</p>
+<p>而微软DOM需要这样引用：</p>
 
-<h3 id="disqus-in-china">Disqus in China</h3>
-
-<p>Disqus is inaccessible in China. To get it to work, we can set up a proxy with <a href="https://github.com/zhaohuabing/disqus-php-api">disqus-php-api</a> in a host which sets between the client browser and the Disqus server. The idea is that if Disqus can be reached in the guest network, the blog page will show the original Disqus comments UI, otherwise, it will downgrade and use the proxy to access the Disqus, the UI will be a little different, but the visitors can still write their comments on the page.</p>
-
-<p>The client side java script has already been integrated to CleanWhite them, but you need to set up a proxy server yourself.</p>
-
-<p>The proxy is written in php, which can be found here: <a href="https://github.com/zhaohuabing/disqus-php-api/tree/master/api">https://github.com/zhaohuabing/disqus-php-api/tree/master/api</a></p>
-
-<p>You need to specify  your Disqus account information in the config.php.</p>
-
-<pre><code>define('PUBLIC_KEY', '');
-define('SECRET_KEY', '');
-define('DISQUS_USERNAME', '');
-define('DISQUS_EMAIL', '');
-define('DISQUS_PASSWORD', '');
-define('DISQUS_WEBSITE', '');
-define('DISQUS_SHORTNAME', '');
+<pre><code>document.all['myelement']
 </code></pre>
 
-<p>Set the proxy server address in the site config file of your Hugo project.</p>
+<p>两种DOM差异远不止这一点，这样导致了程序员必须知道这些代码运行在哪种浏览器，所以不得不编写两次，以防万一。而且还需要编写代码去探查浏览器是哪种。</p>
 
-<pre><code class="language-toml">disqus_proxy = &quot;http://yourdisqusproxy.com&quot;
-</code></pre>
+<h3 id="1-4-制定标准">1.4 制定标准</h3>
 
-<h3 id="site-search-with-algolia">Site Search with Algolia</h3>
+<p>正当两家打得火热，W3C出手推出一个标准化的DOM，各家浏览器厂商抛开敌意携手W3C指定新标准，于1998年完成第一级DOM。</p>
 
-<p>Follow this <a href="https://forestry.io/blog/search-with-algolia-in-hugo/#3-create-your-index-in-algolia">tutorial</a> to create your index in Algolia. The index is just the storage of the indexing data of your site in the the cloud . The search page of CleanWhite theme will utilize this indexing data to do the search.</p>
+<h4 id="1-4-1-浏览器以外的考虑">1.4.1 浏览器以外的考虑</h4>
 
-<p>Go to the directory where you have your Hugo site and run the following commands:</p>
+<p>DOM是一种API，是一种公认的标准，例如国际时区，化学元素等等，制定标准是为了方便合作。</p>
 
-<pre><code class="language-bash">$ npm init
-$ npm install atomic-algolia --save
-</code></pre>
+<h4 id="1-4-2-浏览器战争的结局">1.4.2 浏览器战争的结局</h4>
 
-<p>Next, open up the newly created package.json, where we’ll add an NPM script to update your index at Algolia. Find &ldquo;scripts&rdquo;, and add the following:</p>
+<p>微软战胜了Netscape，因为每个微软系统都自带IE。开发人员是这场战争中受到影响最大的人，跨浏览器开发是他们的噩梦，除了JS意外，CSS方面也有诸多不同。编写同时支持两种浏览器样式表和脚本的工作成了一门黑色艺术。
+浏览器厂商自私的姿态遭到人们强烈反对。WaSP 小组应运而生。他鼓励浏览器厂商采用W3C的标准。下一代浏览器产品对Web的标准有着极大的改善。</p>
 
-<pre><code class="language-josn">&quot;algolia&quot;: &quot;atomic-algolia&quot;
-</code></pre>
+<h4 id="1-4-3-崭新的起点">1.4.3 崭新的起点</h4>
 
-<p>Algolia index output format has already been supported by the CleanWhite theme, so you can just build your site, then you’ll find a file called algolia.json in the root, which we can use to update your index in Algolia.
-Generate index file:</p>
-
-<pre><code class="language-bash">$ hugo
-</code></pre>
-
-<p>Create a new file in the root of your Hugo project called .env, and add the following contents:</p>
-
-<pre><code class="language-bash">ALGOLIA_APP_ID={{ YOUR_APP_ID }}
-ALGOLIA_ADMIN_KEY={{ YOUR_ADMIN_KEY }}
-ALGOLIA_INDEX_NAME={{ YOUR_INDEX_NAME }}
-ALGOLIA_INDEX_FILE={{ PATH/TO/algolia.json }}
-</code></pre>
-
-<p>Now you can push your index to Algolia by simply running:</p>
-
-<pre><code class="language-bash">$ npm run algolia
-</code></pre>
-
-<p>Add the following variables to your hugo site config so the search page can get access to algolia index data in the cloud:</p>
-
-<pre><code>algolia_search = true
-algolia_appId = {{ YOUR_APP_ID }}
-algolia_indexName = {{ YOUR_INDEX_NAME }}
-algolia_apiKey = {{ YOUR_ADMIN_KEY }}
-</code></pre>
-
-<p>Open search page in your browser: <a href="http://localhost:1313/search">http://localhost:1313/search</a></p>
-
-<h3 id="analytics">Analytics</h3>
-
-<p>You can optionally enable Google or Baidu Analytics. Type your tracking code in the</p>
-
-<pre><code class="language-toml">googleAnalytics = &quot;UA-XXXXX-X&quot;
-ba_track_id  = &quot;XXXXXXXXXXXXXXXX&quot;
-</code></pre>
-
-<p>Leave the <code>googleAnalytics</code>  or &lsquo;ba_track_id &lsquo; key empty to disable it.</p>
-
-<h3 id="wechat-pay-alipay-rewards">Wechat Pay &amp; Alipay Rewards</h3>
-
-<p>You can enable Wechat Pay &amp; Alipay to allow readers send you money. So if they like your articles, you may even get rewards from your writing. Now you must be motivated to write more.</p>
-
-<ul>
-<li>Enable Wechat Pay &amp; Alipay in the site config
-<code>toml
-reward = true
-</code></li>
-<li>Replace the QR codes of Wechat Pay &amp; Alipay by overriding the photos in folder /static/img/reward/, otherwise the money will be sent to my accounts!</li>
-</ul>
-
-<h2 id="thank">Thank</h2>
-
-<p>Thanks for the great jobs of <a href="https://github.com/Huxpro/huxpro.github.io">huxblog Jekyll Theme</a> and <a href="https://github.com/BlackrockDigital/startbootstrap-clean-blog-jekyll">Clean Blog Jekyll Theme</a> which are the the two upstream projects CleanWhite Hugo theme is based on.</p>
-
-<h2 id="feedback">Feedback</h2>
-
-<p>If you find any problems, please feel free to <a href="https://github.com/zhaohuabing/hugo-theme-cleanwhite/issues/new">raise an issue</a> or create a pull request to fix it.</p>
-
-<p>If it&rsquo;s helpful for you, I would appreciate it if you could star this repository, thanks!</p>
+<p>早期浏览器大战至今，市场易发生巨大变化，今天的Safair，Chrome，Firefox对DOmain都有着很好的支持，很多手机浏览器也在使用者WebKit渲染引擎。不断提高上网体验。但目前还没有一款浏览器能完美无瑕的实现W3C DOM但覆盖率已达百分之九五。现在终于实现了编写一次，随处运行的梦想。</p>
 
 
                 
@@ -441,15 +363,10 @@ reward = true
                 <ul class="pager">
                     
                     <li class="previous">
-                        <a href="/2018/06/02/istio08/" data-toggle="tooltip" data-placement="top" title="Istio 0.8 Release发布">&larr;
+                        <a href="/post/readme/" data-toggle="tooltip" data-placement="top" title="Clean White Theme for Hugo">&larr;
                             Previous Post</a>
                     </li>
                     
-                    
-                    <li class="next">
-                        <a href="/2019/03/20/DOM-code-art-learn-note-first/" data-toggle="tooltip" data-placement="top" title="DOM编程艺术学习笔记第一章">Next
-                            Post &rarr;</a>
-                    </li>
                     
                 </ul>
 
